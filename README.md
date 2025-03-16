@@ -1,12 +1,39 @@
-# React + Vite
+# Luminify - Tailwind Backdrop Filter Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Luminify adalah alat sederhana untuk menghasilkan kode Tailwind CSS dengan **backdrop filter**. Dengan Luminify, pengguna dapat memilih efek filter dan menyesuaikan intensitasnya menggunakan slider.
 
-Currently, two official plugins are available:
+## 🚀 Fitur
+- 🔹 **Pilih efek backdrop filter** seperti blur, brightness, contrast, dan lainnya.
+- 🎚 **Sesuaikan intensitas filter** dengan slider interaktif.
+- ⚡ **Kode Tailwind langsung dihasilkan** sesuai dengan pengaturan pengguna.
+- 🌐 **UI ringan dan responsif** untuk pengalaman pengguna yang nyaman.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Cara Menggunakan
+1. **Buka aplikasi Luminify** di browser.
+2. **Pilih filter yang ingin diterapkan** (misalnya: `backdrop-blur`, `backdrop-brightness`, dll).
+3. **Sesuaikan intensitas filter** menggunakan slider yang tersedia.
+4. **Salin kode Tailwind yang dihasilkan** dan tempelkan di proyek Anda.
 
-## Expanding the ESLint configuration
+## 💻 Instalasi (Opsional)
+Jika ingin menjalankan proyek secara lokal:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/username/luminify.git
+cd luminify
+npm install
+npm run dev
+```
+
+## 🛠 Teknologi yang Digunakan
+- **React.js dan Tailwind CSS** 
+
+
+## 🤝 Kontribusi
+Jika Anda ingin berkontribusi:
+1. Fork repo ini.
+2. Buat branch baru (`git checkout -b fitur-baru`).
+3. Commit perubahan (`git commit -m 'Menambahkan fitur X'`).
+4. Push ke branch Anda (`git push origin fitur-baru`).
+5. Buat pull request ke repo utama.
+
+
